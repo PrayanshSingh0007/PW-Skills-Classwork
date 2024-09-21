@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13th July</title>
+    <style>
+        #Me{
+            font-size: 1em;
+            border: none;
+            width: 150px;
+            height: 40px;
+            background-color: rgba(255, 0, 0, 0.993);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" id="Me" o>Click Me</button>
+
+    <!-- <p id="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rerum 
+        animi consequuntur veniam at laborum accusantium, perferendis exercitationem
+        ipsa facilis omnis ipsum ad hic quia possimus ducimus obcaecati voluptatem impedit.
+    </p>
+    <p class="paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, rerum 
+        animi consequuntur veniam at laborum accusantium, perferendis exercitationem
+        ipsa facilis omnis ipsum ad hic quia possimus ducimus obcaecati voluptatem impedit.
+    </p> -->
+
+    
+    <script>
+        //  let para = document.getElementById("paragraph");
+        //  para.style.backgroundColor = 'pink';
+        //  para.style.padding = '10px';
+        //  para.style.fontSize = '5rem';
+
+        //  para 2
+
+    //    let para2 = document.getElementsByClassName("paragraph");
+    //    para2.style.backgroundColor = 'purpule';
+    //    para2.style.color = 'white';
+    //      para2.style.padding = '10px';
+    //      para2.style.fontSize = '5rem';
+    //      para2.innerText = "Hello, I am studying from PW ";
+
+         const mybtn = document.getElementById("Me");
+
+         mybtn.addEventListener("click", function(e) {
+            const inputname = prompt("What is your name?");
+
+            document.body.innerHTML = "<h1>Welcome, " + inputname + "</h1>";
+         });
+    </script>
+</body>
+</html>

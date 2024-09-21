@@ -1,0 +1,40 @@
+ul{
+    list-style-type: square;
+    color: red;
+    border-color: aqua;
+}
+
+ol{
+   list-style-type: upper-roman;
+   color: blue;
+   border-color: yellow;
+}
+
+/* CSS Box Model :-
+      -> Content: Information.
+      -> Border: Outer part of anything.
+      -> Margin: The distance between two elements.
+      -> Padding: The distance between content & border. */
+
+#div1{
+    background-color: red;
+    background-color: orange !important; 
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    color: blue;
+}
+#div2{
+    background-color: green;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

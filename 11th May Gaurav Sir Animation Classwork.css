@@ -1,0 +1,27 @@
+.anime-container{
+    background-color: orange;
+    height: 250px;
+    width: 250px;
+    color: white;
+    position: relative;
+    animation: transit 10s infinite;
+}
+/* annotation or keyword*/
+@keyframes transit{
+    0% {
+        left: 0px;
+    }
+    20%{
+        top: 200px;
+        background-color: blueviolet;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    100%{
+        left:1000px;
+        background-color: aqua;
+    }
+}

@@ -1,0 +1,18 @@
+
+.mynavbarstyle{
+    margin-bottom: 1rem;
+}
+
+.sidebarmy{
+    
+    margin-bottom: 1rem;
+}
+
+.contentmy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin-right: 1.25rem;
+}

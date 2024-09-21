@@ -1,0 +1,64 @@
+/* Flex container properties */
+
+.flex-container{
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    /* justify content and justify items change the horizontal axis */
+
+    /* align-content and align-items change the vertical axis */
+
+    /* flex-flow is shorthand for flex-direction and flex-wrap */
+
+    /* align-items is used fo single line and align-content is used for multiple lines */
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: space-between;
+    /* flex-wrap: wrap; */
+    /* align-content:flex-start; */
+    /* gap: 10px 20px; */
+    /* flex-flow: row wrap; */
+
+}
+
+/* Flex item properties */
+
+.flex-box{
+    font-size: larger;
+    color: yellow ;
+  
+}
+
+.flex-box1{
+   background: linear-gradient(to right, #1565C0, #b92b27);
+   align-self: flex-end;
+   /* height: 400px; */
+   /* order: 1; */
+}
+
+.flex-box2{
+   /* order: -2 ; */
+    background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    flex-grow: 4;
+    color: black;
+}
+
+ .flex-box3{
+   /* order: -1; */
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    flex-shrink: 4;
+ }
+
+ .flex-box4{
+   /* order: 0; */
+    background: linear-gradient(to right, #59c173, #a17fe0, #5d26c1);
+    flex-basis: 100px;
+ }
+
+ .flex-box5{
+   /* order: 5; */
+    background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); 
+    flex: 1 0 200px;
+ }

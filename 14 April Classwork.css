@@ -1,0 +1,109 @@
+#container{
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+#container2{
+    background-color: magenta;
+    color: blanchedalmond;
+}
+p{
+    color:white;
+    background-color: blue;
+    width: fit-content;
+}
+.border-black{
+    border: 1px solid black;
+}
+.border-radius{
+    border-radius: 17px;
+}
+.container-color{
+    color: white;
+}
+label{
+    color: aqua;
+    background-color: blue;
+}
+div{
+    width: fit-content;
+}
+*{
+    background-color:dimgray;
+    border: 1px solid yellow;
+    /*Box Model */
+   margin: 0;
+   padding: 0;
+}
+#btn{
+    background-color: yellow;
+}
+#btn:hover{
+    background-color: magenta;
+    color: white;
+}
+#name:hover{
+    background-color: dodgerblue;
+
+}
+#btn:active{
+    background-color: aqua;
+    color: yellow;
+}
+.number{
+    color: orange;
+}
+p:nth-child(even){
+    background-color: red;
+    height: 10vh;
+    width: 200px;
+}
+p:nth-child(odd){
+    background-color: aqua;
+    height: 10vh;
+    width: 200px;
+}
+h1{
+color: aqua;
+font-style: italic;
+background-color: yellow;
+height: 13vh;
+width: 250px;
+}
+#text{
+    height: 6vh;
+    width: 160px;
+}
+#number{
+    height: 6vh;
+    width: 100px;
+}
+#btn2{
+    background-color: yellow;
+}
+#btn2:hover{
+    background-color: magenta;
+    color: white;
+}
+#btn2:active{
+    background-color: aqua;
+    color: yellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Rules of specificity
+ID(priority)
+Class()
+Universal Selectors()
+Sudo classes() */
+
+/* pseudo classes
+:hover
+:active
+:focus
+:nth-child()
+

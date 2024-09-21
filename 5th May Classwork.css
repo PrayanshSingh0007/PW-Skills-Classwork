@@ -1,0 +1,40 @@
+body{
+    /* Function 1 */
+    /* background-image: url(https://i1.wp.com/hechingerreport.org/wp-content/uploads/2018/04/Jennifer-Heller-Buckley-PHOTO1.jpg?ssl=1); */
+}
+
+.Container{
+    height: 100px;
+    border: 1px solid black;
+    background: rgba(255, 100, 201, 0.363);
+    /* px - absolute units
+    vh, vw, em, rem - relative
+    */
+
+    /* Function 2 */
+    width: calc(100% - 20%);
+}
+
+img{
+    filter: brightness(1.5);
+    filter: blur(0px);
+    filter: contrast(3);
+    /* opacity: 0; */
+}
+
+.Container2{
+    height: 100px;
+    width: calc(50% - 25%);
+    border: 1px solid black;
+    /* top to bottom
+    linear-gradient(direction, color1, color2,...n*/
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  
+    background: linear-gradient(to right, #ec2F4B, #009FFF); 
+}
+
+.Container3{
+    background: linear-gradient(180deg, red, blue);
+    height: 300px;
+    width: 300px;
+}

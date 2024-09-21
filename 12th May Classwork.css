@@ -1,0 +1,40 @@
+:root{
+    /* global variable */
+    /* Name: value best */
+    --blue: #fc7a00;
+    --primary: #f6fa0c;
+    --secondary:#ff0000;
+    --darktheme: #111111;
+}
+.var-css{
+    width: 150px;
+    height: 100px;
+    background-color: var(--blue);
+    transition: all 5s ease-in ;
+}
+
+.var-css:hover{
+    width: 700px;
+    background-color: var(--primary);
+    /* 2d Transformation */
+    /* Rotation , Scale , coordinates */
+
+      /* transform: rotate(deg); */
+
+    /* transform: rotate(180deg); */
+    text-align: center;
+    transition: all 5s ease-in ;
+    /* transform: scale(2, 0.8); */
+
+    /* transform: translate( x value , y value); */
+    /* transform: translateY( 400px); */  /*We can also give - value*/
+    /* transform: translateX( 200px); */
+    /* transform: translate( 400px , 100px); */
+
+}
+
+p{
+    color: var(--blue);
+    font-size: x-large;
+    font-weight: 800;
+}

@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    background-color: black;
+    height: 400px;
+    flex-direction: column;
+    /* horizontal axis property */
+    /* justify-content: space-between; */
+
+    /* vertical axis property */
+    /* align-items: end; */
+
+    gap: 10px;
+    flex-wrap:nowrap;
+}
+
+.container > div:nth-child(1){
+    background-color: orange;
+}
+
+.container > div:nth-child(2){
+    background-color: aqua;
+}
+
+.container > div:nth-child(3){
+    background-color: rgb(255, 0, 0);
+}
+
+.container > div:nth-child(4){
+    background-color: rgb(255, 9, 234);
+}
+
+.container > div:nth-child(5){
+    background-color: rgb(38, 74, 235);
+}
+
+.container > div:nth-child(6){
+    background-color: rgb(8, 244, 252);
+}
+
+.container > div:nth-child(7){
+    background-color: rgb(92, 5, 231);
+}
+
+.item{
+    width: 100px;
+    flex-grow: 1;
+}
